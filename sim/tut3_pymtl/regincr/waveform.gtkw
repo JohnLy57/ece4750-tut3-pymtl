@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.76 (w)1999-2016 BSI
+[*] Sat Sep 19 19:12:53 2020
+[*]
+[dumpfile] "/home/jtl222/ece4750/tut3/sim/tut3_pymtl/regincr/regincr-sim.vcd"
+[dumpfile_mtime] "Sat Sep 19 19:09:20 2020"
+[dumpfile_size] 873
+[savefile] "/home/jtl222/ece4750/tut3/sim/tut3_pymtl/regincr/waveform.gtkw"
+[timestart] 1700
+[size] 1000 600
+[pos] -1 -1
+*-11.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 229
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+top.clk
+@22
+top.in_[7:0]
+top.out[7:0]
+top.reg_out[7:0]
+@29
+top.reset
+[pattern_trace] 1
+[pattern_trace] 0
