@@ -36,3 +36,13 @@ class RegIncr( Model ):
     # output the input, register, and output values.
     # ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
+    # Concurrent block modeling incrementer
+
+    @s.combinational 
+    def block2():
+      s.out.value = s.reg_out + 1
+
+    # line tracing simulation
+
+    def line_trace( s ): 
+      return "in:{} ({}) out:{}".format( s.in_, s.reg_out, s.out ) 
